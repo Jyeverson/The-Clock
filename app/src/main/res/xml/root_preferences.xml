@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Cronometro">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="Horas"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="Minutos"
+            app:defaultValue="1"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="Segundos"
+            app:defaultValue="30"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Interface">
+
+    <ListPreference
+        android:defaultValue=""
+        android:entryValues="@array/themes"
+        android:key="pref_key_themes_preference"
+        android:summary="Escuro"
+        android:title="Temas" />
+
+</PreferenceCategory>
+</PreferenceScreen>

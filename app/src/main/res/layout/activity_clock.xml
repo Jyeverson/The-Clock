@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    tools:context=".ClockActivity">
+
+
+    <TextView
+        android:id="@+id/txt_clock"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/abrilfatface_regular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeStepGranularity="2sp"
+        android:text="00:00"/>
+
+</LinearLayout>
