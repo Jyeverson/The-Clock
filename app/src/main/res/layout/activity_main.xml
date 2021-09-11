@@ -22,7 +22,7 @@
         android:layout_height="150dp">
 
         <Button
-            android:padding="16dp"
+            android:padding="25dp"
             android:drawableEnd="@drawable/ic_baseline_timer_24"
             android:id="@+id/theClock"
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
         android:layout_height="150dp">
 
         <Button
-            android:padding="16sp"
+            android:padding="25sp"
             android:drawableEnd="@drawable/ic_baseline_access_time_24"
             android:id="@+id/stopwatch"
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
         android:layout_height="150dp">
 
         <Button
-            android:padding="16dp"
+            android:padding="25dp"
             android:drawableEnd="@drawable/ic_baseline_settings_24"
             android:id="@+id/settings"
             android:layout_width="match_parent"
