@@ -14,13 +14,13 @@
         android:id="@+id/txt_clock"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/abrilfatface_regular"
+        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="50dp"
         app:autoSizeTextType="uniform"
         app:autoSizeMinTextSize="12sp"
-        app:autoSizeMaxTextSize="200sp"
+        app:autoSizeMaxTextSize="300sp"
         app:autoSizeStepGranularity="2sp"
         android:text="00:00"/>
 
@@ -31,7 +31,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="50sp"
-        android:fontFamily="@font/abrilfatface_regular"
+        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
         android:text="" />
 
 </LinearLayout>
