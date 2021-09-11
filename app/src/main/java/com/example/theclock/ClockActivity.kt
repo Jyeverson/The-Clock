@@ -7,6 +7,8 @@ import android.view.Window
 import android.view.WindowManager
 import android.widget.TextView
 import java.util.*
+import android.view.View
+import java.text.SimpleDateFormat
 
 
 class ClockActivity : AppCompatActivity() {
@@ -33,6 +35,11 @@ class ClockActivity : AppCompatActivity() {
                             calendar.timeInMillis = System.currentTimeMillis()
                             val updateTimer = String.format("%02d:%02d", calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE))
                             textTiming.setText(updateTimer)
+                            val tdate = findViewById<View>(R.id.date) as TextView
+                            val date = System.currentTimeMillis()
+                            val sdf = SimpleDateFormat("MMM dd yyyy")
+                            val dateString: String = sdf.format(date)
+                            tdate.text = dateString
                         }
                     }
                 } catch (e: InterruptedException) {

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_gravity="center"
     tools:context=".ClockActivity">
 
@@ -16,12 +16,22 @@
         android:textColor="#FFFFFF"
         android:fontFamily="@font/abrilfatface_regular"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:layout_margin="50dp"
         app:autoSizeTextType="uniform"
         app:autoSizeMinTextSize="12sp"
         app:autoSizeMaxTextSize="200sp"
         app:autoSizeStepGranularity="2sp"
         android:text="00:00"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:fontFamily="@font/abrilfatface_regular"
+        android:text="" />
 
 </LinearLayout>
