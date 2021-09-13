@@ -1,21 +1,25 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory app:title="Cronometro">
+    <PreferenceCategory app:title="Cronometro"
+        android:icon="@drawable/ic_baseline_timer_24">
 
         <EditTextPreference
+            android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
             app:title="Horas"
             app:defaultValue="0"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
+            android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
             app:title="Minutos"
             app:defaultValue="1"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
+            android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
             app:title="Segundos"
             app:defaultValue="30"
@@ -23,9 +27,11 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Interface">
+    <PreferenceCategory android:title="Interface"
+        android:icon="@drawable/ic_baseline_smart_screen_24">
 
     <ListPreference
+        android:icon="@drawable/ic_baseline_color_lens_24"
         android:defaultValue=""
         android:entryValues="@array/themes"
         android:key="pref_key_themes_preference"
