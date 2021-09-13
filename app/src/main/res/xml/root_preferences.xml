@@ -1,33 +1,33 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory app:title="Cronometro"
+    <PreferenceCategory app:title="@string/category_time"
         android:icon="@drawable/ic_baseline_timer_24">
 
         <EditTextPreference
             android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
-            app:title="Horas"
+            app:title="@string/title_hours"
             app:defaultValue="0"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
-            app:title="Minutos"
+            app:title="@string/title_minutes"
             app:defaultValue="1"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             android:icon="@drawable/ic_baseline_access_time_24"
             app:key="signature"
-            app:title="Segundos"
+            app:title="@string/title_seconds"
             app:defaultValue="30"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="Interface"
+    <PreferenceCategory android:title="@string/category_screen"
         android:icon="@drawable/ic_baseline_smart_screen_24">
 
     <ListPreference
@@ -36,7 +36,7 @@
         android:entryValues="@array/themes"
         android:key="pref_key_themes_preference"
         android:summary="Escuro"
-        android:title="Temas" />
+        android:title="@string/title_themes" />
 
 </PreferenceCategory>
 </PreferenceScreen>

@@ -2,13 +2,15 @@
     <string name="app_name">The Clock</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <!-- Settings Titles -->
+    <string name="category_time">Cronômetro</string>
+    <string name="category_screen">Interface</string>
 
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <!-- Titles Preference Settings -->
+    <string name="title_hours">Horas</string>
+    <string name="title_minutes">Minutos</string>
+    <string name="title_seconds">Segundos</string>
+    <string name="title_themes">Temas</string>
 
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
