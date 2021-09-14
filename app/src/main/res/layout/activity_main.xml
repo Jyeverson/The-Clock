@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="25dp"
-            android:text="RELÓGIO"
+            android:text="@string/btn_clock"
             android:textSize="30sp"
             android:background="@drawable/background_button"
             />
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="25dp"
-            android:text="CRONOMETRO"
+            android:text="@string/btn_stopwatch"
             android:background="@drawable/background_button"
             android:textSize="30sp"/>
 
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="25dp"
-            android:text="CONFIGURAÇÕES"
+            android:text="@string/btn_settings"
             android:background="@drawable/background_button"
             android:textAlignment="center"
             android:textSize="30sp"/>
