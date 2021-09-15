@@ -15,7 +15,7 @@ class StopwatchActivity : AppCompatActivity() {
         getWindow().setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        
+
         setContentView(R.layout.activity_stopwatch)
 
         this.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_USER_LANDSCAPE
