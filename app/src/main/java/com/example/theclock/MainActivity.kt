@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.stopwatch).setOnClickListener {
-            //val intent = Intent(this, ClockActivity::class.java)
-            //startActivity(intent)
+            val intent = Intent(this, StopwatchActivity::class.java)
+            startActivity(intent)
         }
 
         findViewById<Button>(R.id.settings).setOnClickListener {
