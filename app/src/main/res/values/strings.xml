@@ -17,4 +17,7 @@
     <string name="btn_stopwatch">Cronômetro</string>
     <string name="btn_settings">Configurações</string>
 
+    <!-- StopWatch Activity -->
+    <string name="btn_start">Iniciar</string>
+
 </resources>
