@@ -11,6 +11,7 @@ import android.widget.TextView
 import androidx.preference.PreferenceManager
 import com.example.theclock.R
 import android.view.View
+import android.widget.Button
 import java.util.*
 
 
@@ -29,7 +30,9 @@ class StopwatchActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_stopwatch)
 
-        progress()
+        findViewById<Button>(R.id.btn_start).setOnClickListener {
+            progress()
+        }
     }
     private fun progress() {
         val seekBar = findViewById<SeekBar>(R.id.progressBar)
