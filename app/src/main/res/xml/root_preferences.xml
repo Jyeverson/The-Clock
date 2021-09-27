@@ -19,6 +19,7 @@
     <ListPreference
         android:icon="@drawable/ic_baseline_color_lens_24"
         android:defaultValue=""
+        android:entries="@array/themes"
         android:entryValues="@array/themes"
         android:key="pref_key_themes_preference"
         android:summary="Escuro"

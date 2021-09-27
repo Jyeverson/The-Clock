@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="themes">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Red</item>
-        <item>Blue</item>
+        <item>Branco</item>
+        <item>Escuro</item>
     </string-array>
 </resources>
