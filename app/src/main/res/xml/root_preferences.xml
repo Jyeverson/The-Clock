@@ -6,7 +6,7 @@
 
         <EditTextPreference
             android:icon="@drawable/ic_baseline_access_time_24"
-            app:key="st_minutes"
+            app:key="stopwatch_minutes"
             app:title="@string/title_minutes"
             app:defaultValue="1"
             app:useSimpleSummaryProvider="true" />
