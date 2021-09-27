@@ -1,4 +1,3 @@
-
 package com.example.theclock.stopwatch
 
 import androidx.appcompat.app.AppCompatActivity
@@ -17,9 +16,6 @@ import java.util.*
 
 class StopwatchActivity : AppCompatActivity() {
 
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -29,7 +25,6 @@ class StopwatchActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         setContentView(R.layout.activity_stopwatch)
-
         findViewById<Button>(R.id.btn_start).setOnClickListener {
             progress()
         }

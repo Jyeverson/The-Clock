@@ -16,13 +16,14 @@
 
 
     <SeekBar
+        android:thumbTint="@color/White"
         android:id="@+id/progressBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:layout_gravity="center"
         android:max="100"
-        android:progress="100"/>
+        android:progress="0"/>
 
 
 </LinearLayout>
