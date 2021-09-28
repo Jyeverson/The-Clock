@@ -53,7 +53,7 @@ class StopwatchActivity : AppCompatActivity() {
 
     fun durationSeekBar(): Double? {
         val sharedPref = PreferenceManager.getDefaultSharedPreferences(applicationContext)
-        return sharedPref.getString("st_minutes", "3")?.toDouble()
+        return sharedPref.getString("stopwatch_minutes", "3")?.toDouble()
     }
 
 }
