@@ -34,7 +34,7 @@ class ClockActivity : AppCompatActivity() {
                             val textTiming = findViewById<TextView>(R.id.txt_clock)
                             val calendar = Calendar.getInstance()
                             calendar.timeInMillis = System.currentTimeMillis()
-                            val updateTimer = String.format("%02d:%02d", calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE))
+                            val updateTimer = String.format("%02d:%02d:%02d", calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE), calendar.get(Calendar.SECOND))
                             textTiming.setText(updateTimer)
                             val tdate = findViewById<View>(R.id.date) as TextView
                             val date = System.currentTimeMillis()
