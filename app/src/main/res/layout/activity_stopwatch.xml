@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,33 +9,74 @@
     android:layout_gravity="center"
     tools:context=".clock.ClockActivity">
 
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
 
-    <TextView
-        android:id="@+id/txt_stopwatch"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
+
+    <SeekBar
+        android:thumbTint="@color/White"
+        android:id="@+id/progressBar"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_margin="50dp"
-        app:autoSizeTextType="uniform"
-        app:autoSizeMinTextSize="12sp"
-        app:autoSizeMaxTextSize="300sp"
-        app:autoSizeStepGranularity="2sp"
-        android:text="00:00:00"/>
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:max="100"
+        android:progress="0"/>
 
-        <Button
-            android:id="@+id/btn_start"
-            android:fontFamily="@font/azeretmono_italic_variablefont_wght"
-            android:text="@string/btn_start"
-            android:textColor="#000000"
-            android:background="@drawable/background_button"
-            app:autoSizeTextType="uniform"
-            app:autoSizeMinTextSize="12sp"
-            app:autoSizeMaxTextSize="300sp"
-            app:autoSizeStepGranularity="2sp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_margin="10dp"/>
 
 </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_stopwatch"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+          android:layout_marginTop="100dp"
+            android:fontFamily="@font/azeretmono_italic_variablefont_wght"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:autoSizeMaxTextSize="70sp"
+            app:autoSizeMinTextSize="5sp"
+            app:autoSizeStepGranularity="2sp"
+            app:autoSizeTextType="uniform" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="600dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
+        android:text="@string/btn_start"
+        android:textColor="#000000"
+        app:autoSizeMaxTextSize="300sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+</RelativeLayout>

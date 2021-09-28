@@ -6,23 +6,9 @@
 
         <EditTextPreference
             android:icon="@drawable/ic_baseline_access_time_24"
-            app:key="stg_hours"
-            app:title="@string/title_hours"
-            app:defaultValue="0"
-            app:useSimpleSummaryProvider="true" />
-
-        <EditTextPreference
-            android:icon="@drawable/ic_baseline_access_time_24"
-            app:key="st_minutes"
+            app:key="stopwatch_minutes"
             app:title="@string/title_minutes"
             app:defaultValue="1"
-            app:useSimpleSummaryProvider="true" />
-
-        <EditTextPreference
-            android:icon="@drawable/ic_baseline_access_time_24"
-            app:key="st_seconds"
-            app:title="@string/title_seconds"
-            app:defaultValue="30"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
@@ -33,6 +19,7 @@
     <ListPreference
         android:icon="@drawable/ic_baseline_color_lens_24"
         android:defaultValue=""
+        android:entries="@array/themes"
         android:entryValues="@array/themes"
         android:key="pref_key_themes_preference"
         android:summary="Escuro"
