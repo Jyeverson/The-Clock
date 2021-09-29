@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,71 +8,54 @@
     android:background="#1C1C1C"
     tools:context=".MainActivity">
 
-
-    <LinearLayout
+    <Button
+        android:id="@+id/theClock"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="vertical">
+        android:layout_height="100dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/background_button"
+        android:drawableEnd="@drawable/ic_baseline_timer_24"
+        android:padding="25dp"
+        android:text="@string/btn_clock"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/stopwatch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/stopwatch"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="100dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/background_button"
+        android:drawableEnd="@drawable/ic_baseline_access_time_24"
+        android:padding="25sp"
+        android:text="@string/btn_stopwatch"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:padding="25dp"
-            android:drawableEnd="@drawable/ic_baseline_timer_24"
-            android:id="@+id/theClock"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="25dp"
-            android:text="@string/btn_clock"
-            android:textColor="@color/black"
-            android:textSize="25sp"
-            android:background="@drawable/background_button"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/settings"
         android:layout_width="match_parent"
-        android:layout_height="150dp">
+        android:layout_height="100dp"
+        android:layout_margin="25dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/background_button"
+        android:drawableEnd="@drawable/ic_baseline_settings_24"
+        android:padding="25dp"
+        android:text="@string/btn_settings"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stopwatch" />
 
-        <Button
-            android:padding="25sp"
-            android:drawableEnd="@drawable/ic_baseline_access_time_24"
-            android:id="@+id/stopwatch"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="25dp"
-            android:text="@string/btn_stopwatch"
-            android:textColor="@color/black"
-            android:background="@drawable/background_button"
-            android:textSize="25sp"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="150dp">
-
-        <Button
-            android:padding="25dp"
-            android:drawableEnd="@drawable/ic_baseline_settings_24"
-            android:id="@+id/settings"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="25dp"
-            android:text="@string/btn_settings"
-            android:textColor="@color/black"
-            android:background="@drawable/background_button"
-            android:textAlignment="center"
-            android:textSize="25sp"/>
-
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
