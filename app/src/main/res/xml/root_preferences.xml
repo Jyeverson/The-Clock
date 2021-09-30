@@ -8,7 +8,7 @@
             android:icon="@drawable/ic_baseline_access_time_24"
             app:key="stopwatch_minutes"
             app:title="@string/title_minutes"
-            app:defaultValue="1"
+            app:defaultValue="3"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
