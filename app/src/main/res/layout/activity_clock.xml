@@ -14,7 +14,7 @@
         android:id="@+id/txt_clock"
         android:textAlignment="center"
         android:textColor="@color/White"
-        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
+        android:fontFamily="@font/ds_digital"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="50dp"
@@ -31,7 +31,7 @@
         android:textAlignment="center"
         android:textColor="@color/White"
         android:textSize="50sp"
-        android:fontFamily="@font/azeretmono_italic_variablefont_wght"
+        android:fontFamily="@font/ds_digital"
         android:text="" />
 
 </LinearLayout>
