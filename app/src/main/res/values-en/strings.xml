@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">The Clock</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <!-- Settings Titles -->
+    <string name="category_time" translatable="false">Stopwatch</string>
+    <string name="category_screen" translatable="false">Interface</string>
+
+    <!-- Titles Preference Settings -->
+    <string name="title_hours" translatable="false">Hours</string>
+    <string name="title_minutes" translatable="false">Minutes</string>
+    <string name="title_seconds" translatable="false">Seconds</string>
+    <string name="title_themes" translatable="false">Themes</string>
+
+    <!-- Activity Main -->
+    <string name="btn_clock" translatable="false">Clock</string>
+    <string name="btn_stopwatch" translatable="false">Stopwatch</string>
+    <string name="btn_settings" translatable="false">Configurations</string>
+
+    <!-- StopWatch Activity -->
+    <string name="btn_start" translatable="false">Start</string>
+
+</resources>

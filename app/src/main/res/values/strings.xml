@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">The Clock</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="app_name" translatable="false">The Clock</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
 
     <!-- Settings Titles -->
-    <string name="category_time">Cronômetro</string>
-    <string name="category_screen">Interface</string>
+    <string name="category_time" translatable="false">Cronômetro</string>
+    <string name="category_screen" translatable="false">Interface</string>
 
     <!-- Titles Preference Settings -->
-    <string name="title_hours">Horas</string>
-    <string name="title_minutes">Minutos</string>
-    <string name="title_seconds">Segundos</string>
-    <string name="title_themes">Temas</string>
+    <string name="title_hours" translatable="false">Horas</string>
+    <string name="title_minutes" translatable="false">Minutos</string>
+    <string name="title_seconds" translatable="false">Segundos</string>
+    <string name="title_themes" translatable="false">Temas</string>
 
     <!-- Activity Main -->
-    <string name="btn_clock">Relógio</string>
-    <string name="btn_stopwatch">Cronômetro</string>
-    <string name="btn_settings">Configurações</string>
+    <string name="btn_clock" translatable="false">Relógio</string>
+    <string name="btn_stopwatch" translatable="false">Cronômetro</string>
+    <string name="btn_settings" translatable="false">Configurações</string>
 
     <!-- StopWatch Activity -->
-    <string name="btn_start">Iniciar</string>
+    <string name="btn_start" translatable="false">Iniciar</string>
 
 </resources>
