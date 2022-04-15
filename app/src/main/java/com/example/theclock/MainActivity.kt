@@ -6,7 +6,7 @@ import android.widget.Button
 import android.content.Intent
 import com.example.theclock.clock.ClockActivity
 import com.example.theclock.settings.SettingsActivity
-import com.example.theclock.stopwatch.StopwatchActivity
+import com.example.theclock.timer.TimerActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        findViewById<Button>(R.id.stopwatch).setOnClickListener {
-            val intent = Intent(this, StopwatchActivity::class.java)
+        findViewById<Button>(R.id.timer).setOnClickListener {
+            val intent = Intent(this, TimerActivity::class.java)
             startActivity(intent)
         }
 

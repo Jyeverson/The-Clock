@@ -1,4 +1,4 @@
-package com.example.theclock.stopwatch
+package com.example.theclock.timer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,10 +11,9 @@ import androidx.preference.PreferenceManager
 import com.example.theclock.R
 import android.view.View
 import android.widget.Button
-import java.util.*
 
 
-class StopwatchActivity : AppCompatActivity() {
+class TimerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +23,7 @@ class StopwatchActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
-        setContentView(R.layout.activity_stopwatch)
+        setContentView(R.layout.activity_timer)
         findViewById<Button>(R.id.btn_start).setOnClickListener {
             progress()
         }
