@@ -1,2 +1,10 @@
 # The-Clock
-![TESTE](image/main.png width="100" height="100")
+
+# Photo of the app's main screen
+![MAIN](image/main.png)
+
+# Screenshot of the app clock
+![MAIN](image/clock.png)
+
+# Screenshot of the app timer
+![MAIN](image/timer.png)
