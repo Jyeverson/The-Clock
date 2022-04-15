@@ -1,2 +1,2 @@
 # The-Clock
-![TESTE](image/main)
+![TESTE](image/main.png)
