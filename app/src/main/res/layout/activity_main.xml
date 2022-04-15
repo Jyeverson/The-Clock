@@ -5,30 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1C1C1C"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/theClock"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:background="@drawable/background_button"
         android:drawableEnd="@drawable/ic_baseline_timer_24"
         android:padding="25dp"
         android:text="@string/btn_clock"
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/stopwatch"
+        app:layout_constraintBottom_toTopOf="@+id/timer"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/timer"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="25dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:background="@drawable/background_button"
         android:drawableEnd="@drawable/ic_baseline_access_time_24"
         android:padding="25sp"
@@ -43,9 +44,8 @@
     <Button
         android:id="@+id/settings"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="25dp"
-        android:layout_marginBottom="144dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
         android:background="@drawable/background_button"
         android:drawableEnd="@drawable/ic_baseline_settings_24"
         android:padding="25dp"
@@ -56,6 +56,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stopwatch" />
+        app:layout_constraintTop_toBottomOf="@+id/timer" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
