@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">The Clock</string>
+    <string name="app_name">O Relógio</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Settings Titles -->
-    <string name="category_time">Cronômetro</string>
+    <string name="category_time">Temporizador</string>
     <string name="category_screen">Interface</string>
 
     <!-- Titles Preference Settings -->

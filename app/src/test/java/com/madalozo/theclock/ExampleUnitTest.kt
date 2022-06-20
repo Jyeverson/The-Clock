@@ -1,4 +1,4 @@
-package com.example.theclock
+package com.madalozo.theclock
 
 import org.junit.Test
 

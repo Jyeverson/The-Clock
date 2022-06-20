@@ -1,4 +1,4 @@
-package com.example.theclock.clock
+package com.madalozo.theclock.clock
 
 import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import android.view.WindowManager
 import android.widget.TextView
 import java.util.*
 import android.view.View
-import com.example.theclock.R
+import com.madalozo.theclock.R
 import java.text.SimpleDateFormat
 
 

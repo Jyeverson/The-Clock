@@ -1,9 +1,9 @@
-package com.example.theclock.settings
+package com.madalozo.theclock.settings
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceFragmentCompat
-import com.example.theclock.R
+import com.madalozo.theclock.R
 
 class SettingsActivity : AppCompatActivity() {
 

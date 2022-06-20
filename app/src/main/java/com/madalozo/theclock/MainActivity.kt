@@ -1,12 +1,13 @@
-package com.example.theclock
+package com.madalozo.theclock
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.content.Intent
-import com.example.theclock.clock.ClockActivity
-import com.example.theclock.settings.SettingsActivity
-import com.example.theclock.timer.TimerActivity
+import com.madalozo.theclock.R
+import com.madalozo.theclock.clock.ClockActivity
+import com.madalozo.theclock.settings.SettingsActivity
+import com.madalozo.theclock.timer.TimerActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

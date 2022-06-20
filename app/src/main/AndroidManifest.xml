@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.theclock">
+    package="com.madalozo.theclock">
 
     <application
         android:allowBackup="true"
@@ -10,17 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheClock">
         <activity
-            android:name=".timer.TimerActivity"
+            android:name="com.madalozo.theclock.timer.TimerActivity"
             android:exported="true" />
         <activity
-            android:name=".settings.SettingsActivity"
+            android:name="com.madalozo.theclock.settings.SettingsActivity"
             android:exported="true"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name=".clock.ClockActivity"
+            android:name="com.madalozo.theclock.clock.ClockActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.madalozo.theclock.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

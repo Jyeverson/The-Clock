@@ -1,4 +1,4 @@
-package com.example.theclock.timer
+package com.madalozo.theclock.timer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.WindowManager
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.preference.PreferenceManager
-import com.example.theclock.R
+import com.madalozo.theclock.R
 import android.view.View
 import android.widget.Button
 
